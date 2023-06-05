@@ -361,6 +361,14 @@ server <- function(input, output, session){
 
 답변 유형(Yes or No, 점수 등등)에 따라 설문 datatable을 만들어 놓은 뒤 이에 맞게 datatable 컬럼 별로 `lapply` 함수를 잘 사용하여 UI 코드를 작성하면 보다 간편하게 `Shiny`를 이용하실 수 있습니다.
 
+## 이슈들
+
+1. shiny for mobile (IOS 문제)
+
+2. Reactable cell에서 JS를 이용한 button에 columname 값 전달 : [reactable issue](https://github.com/glin/reactable/issues/89) 
+
+3. UI design 
+
 ## 마치며
 
 R만을 이용하여 Server와 UI를 동시에 제작하고 배포할 수 있다는 것이 **R Shiny** 의 가장 큰 장점입니다. 또한 오픈 소스가 활성화되어 있어 다양한 사용자 개발 library를 이용할 수 있으므로 사용하고 싶은 기능은 웬만하면 사용이 가능하며, 기존 library의 함수를 원하는 방식으로 변형하여 사용할 수도 있습니다. JavaScript나 CSS와도 호환이 잘 되기 때문에 UI 디자인까지 R이라는 한 Tool로 작업이 가능하기 때문에 상당히 편리합니다.
