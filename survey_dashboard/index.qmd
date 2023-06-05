@@ -10,6 +10,7 @@ date: 2023-06-05
 format: 
     html:
       self-contained: true
+      toc: true
 lang: kr
 toc-depth: 4
 ---
